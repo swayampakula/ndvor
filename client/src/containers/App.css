@@ -1,0 +1,30 @@
+.App {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.person {
+  border-bottom: 1px solid grey
+}
+
+.persons-list, .person-details {
+    /* border: 1px solid #777; */
+    box-shadow: 0px 1px 2px #777;
+    padding: 20px;
+    width: 250px;
+}
+
+.person:last-child {
+  border: none
+}
+
+.person:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.brand-logo {
+  text-decoration: none;
+  color: #FFF;
+}
